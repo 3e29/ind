@@ -106,41 +106,41 @@ const WhyChooseUs: React.FC = () => {
         {/* Stats Section */}
         <div className="mt-16 lg:mt-20 grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
           <ScrollReveal direction="up" delay={0} className="h-full">
-            <div className="text-center p-4 sm:p-6 rounded-xl bg-[--color-primary] text-white h-full flex flex-col justify-center">
+            <div className="text-center p-4 sm:p-6 rounded-xl bg-[--color-primary] text-white h-full flex flex-col justify-center min-h-[100px] sm:min-h-[120px]">
               <div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[--color-cta] mb-1 sm:mb-2">
                 20+
               </div>
-              <div className="text-xs sm:text-sm lg:text-base opacity-90">
+              <div className="text-xs sm:text-sm lg:text-base opacity-90 leading-tight">
                 {dict.whyChooseUs?.stats?.years || "Years Experience"}
               </div>
             </div>
           </ScrollReveal>
           <ScrollReveal direction="up" delay={0.1} className="h-full">
-            <div className="text-center p-4 sm:p-6 rounded-xl bg-[--color-primary] text-white h-full flex flex-col justify-center">
+            <div className="text-center p-4 sm:p-6 rounded-xl bg-[--color-primary] text-white h-full flex flex-col justify-center min-h-[100px] sm:min-h-[120px]">
               <div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[--color-cta] mb-1 sm:mb-2">
                 500+
               </div>
-              <div className="text-xs sm:text-sm lg:text-base opacity-90">
+              <div className="text-xs sm:text-sm lg:text-base opacity-90 leading-tight">
                 {dict.whyChooseUs?.stats?.clients || "Happy Clients"}
               </div>
             </div>
           </ScrollReveal>
           <ScrollReveal direction="up" delay={0.2} className="h-full">
-            <div className="text-center p-4 sm:p-6 rounded-xl bg-[--color-primary] text-white h-full flex flex-col justify-center">
+            <div className="text-center p-4 sm:p-6 rounded-xl bg-[--color-primary] text-white h-full flex flex-col justify-center min-h-[100px] sm:min-h-[120px]">
               <div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[--color-cta] mb-1 sm:mb-2">
                 1000+
               </div>
-              <div className="text-xs sm:text-sm lg:text-base opacity-90">
+              <div className="text-xs sm:text-sm lg:text-base opacity-90 leading-tight">
                 {dict.whyChooseUs?.stats?.products || "Products Delivered"}
               </div>
             </div>
           </ScrollReveal>
           <ScrollReveal direction="up" delay={0.3} className="h-full">
-            <div className="text-center p-4 sm:p-6 rounded-xl bg-[--color-primary] text-white h-full flex flex-col justify-center">
+            <div className="text-center p-4 sm:p-6 rounded-xl bg-[--color-primary] text-white h-full flex flex-col justify-center min-h-[100px] sm:min-h-[120px]">
               <div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[--color-cta] mb-1 sm:mb-2">
                 24/7
               </div>
-              <div className="text-xs sm:text-sm lg:text-base opacity-90">
+              <div className="text-xs sm:text-sm lg:text-base opacity-90 leading-tight">
                 {dict.whyChooseUs?.stats?.support || "Support Available"}
               </div>
             </div>

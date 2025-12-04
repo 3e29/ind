@@ -99,7 +99,9 @@ const NavLink: React.FC<NavLinkProps> = ({
   // Check if active by removing locale prefix first
   const pathWithoutLocale = pathname.replace(/^\/(en|ar)/, "");
   const isActive =
-    pathWithoutLocale === href || pathWithoutLocale.startsWith(`${href}/`);
+    pathWithoutLocale === href ||
+    (href === "/" && pathWithoutLocale === "") ||
+    (href !== "/" && pathWithoutLocale.startsWith(`${href}/`));
 
   return (
     <div
