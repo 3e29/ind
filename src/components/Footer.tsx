@@ -151,7 +151,8 @@ const Footer: React.FC = () => {
                 <FaPhone className="w-5 h-5 text-[--color-cta] flex-shrink-0" />
                 <a
                   href="tel:+966594503614"
-                  className="text-gray-400 hover:text-[--color-cta] transition-colors " dir="ltr"
+                  className="text-gray-400 hover:text-[--color-cta] transition-colors "
+                  dir="ltr"
                 >
                   +966594503614
                 </a>
@@ -160,6 +161,20 @@ const Footer: React.FC = () => {
                 <FaEnvelope className="w-5 h-5 text-[--color-cta] flex-shrink-0" />
                 <a
                   href="mailto:info@company.com"
+                  onClick={(e) => {
+                    const hasCoarsePointer =
+                      window.matchMedia("(pointer: coarse)").matches;
+                    const isLargeScreen = window.innerWidth >= 1024;
+                    const isDesktop = isLargeScreen && !hasCoarsePointer;
+
+                    if (isDesktop) {
+                      e.preventDefault();
+                      window.open(
+                        "https://mail.google.com/mail/?view=cm&to=info@company.com",
+                        "_blank"
+                      );
+                    }
+                  }}
                   className="text-gray-400 hover:text-[--color-cta] transition-colors"
                 >
                   info@company.com
