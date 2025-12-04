@@ -53,7 +53,10 @@ const ContactSection: React.FC = () => {
 
               {/* Contact Info Cards */}
               <div className="grid sm:grid-cols-2 gap-4 mb-8">
-                <div className="flex items-center gap-4 p-4 bg-white/10 backdrop-blur-sm rounded-xl text-start">
+                <a
+                  href="tel:+966594504614"
+                  className="flex items-center gap-4 p-4 bg-white/10 backdrop-blur-sm rounded-xl text-start hover:bg-white/20 transition-colors cursor-pointer"
+                >
                   <div className="flex-shrink-0 w-12 h-12 flex items-center justify-center bg-[--color-cta] rounded-lg">
                     <FaPhone className="w-5 h-5 text-[--color-primary] rtl:-scale-x-100" />
                   </div>
@@ -65,8 +68,24 @@ const ContactSection: React.FC = () => {
                       +966594504614
                     </div>
                   </div>
-                </div>
-                <div className="flex items-center gap-4 p-4 bg-white/10 backdrop-blur-sm rounded-xl text-start">
+                </a>
+                <a
+                  href="mailto:info@company.com"
+                  onClick={(e) => {
+                    // Check if likely desktop (no touch support and wider screen)
+                    const isDesktop =
+                      !("ontouchstart" in window) && window.innerWidth > 1024;
+                    if (isDesktop) {
+                      e.preventDefault();
+                      window.open(
+                        "https://mail.google.com/mail/?view=cm&to=info@company.com",
+                        "_blank"
+                      );
+                    }
+                    // On mobile, the default mailto: will open the device's email app
+                  }}
+                  className="flex items-center gap-4 p-4 bg-white/10 backdrop-blur-sm rounded-xl text-start hover:bg-white/20 transition-colors cursor-pointer"
+                >
                   <div className="flex-shrink-0 w-12 h-12 flex items-center justify-center bg-[--color-cta] rounded-lg">
                     <FaEnvelope className="w-5 h-5 text-[--color-primary]" />
                   </div>
@@ -78,7 +97,7 @@ const ContactSection: React.FC = () => {
                       info@company.com
                     </div>
                   </div>
-                </div>
+                </a>
               </div>
 
               {/* CTA Buttons */}
