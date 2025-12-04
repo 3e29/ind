@@ -1,0 +1,179 @@
+{
+  "navbar": {
+    "home": "HOME",
+    "productCategory": "PRODUCT CATEGORIES",
+    "aboutUs": "ABOUT US",
+    "contactUs": "CONTACT US",
+    "woodMachines": "WOOD WORKING MACHINES",
+    "glassAluminiumMachines": "ALUMINUM & GLASS WORKING MACHINES",
+    "metalMachines": "METAL WORKING MACHINES",
+    "airCompressors": "AIR COMPRESSORS",
+    "searchPlaceholder": "Search products...",
+    "subcategories": {
+      "cncMachiningCenters": "CNC Machining Centers",
+      "beamSaws": "Beam Saws",
+      "edgeBanders": "Edge Banders",
+      "drillingMachines": "Drilling Machines",
+      "joineryMachines": "Joinery Machines",
+      "wideBeltSanders": "Wide Belt Sanders",
+      "hotPresses": "Hot Presses",
+      "veneerMachines": "Veneer Machines",
+      "dustCollectors": "Dust Collectors",
+      "cuttingOffMachines": "Cutting-Off Machines",
+      "copyRouter": "Copy Router",
+      "endMilling": "End Milling",
+      "crimpingMachines": "Crimping Machines",
+      "fiberLaserCutting": "Fiber Laser Cutting Machine",
+      "pressBrake": "Press Brake",
+      "shearMachine": "Shear Machine",
+      "fiberLaserWelding": "Fiber Laser Welding",
+      "screwTypeCompressors": "Screw Type Compressors",
+      "pistonTypeCompressors": "Piston Type Compressors"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Over 20 Years of Experience in the Field",
+      "subtitle": "Providing high-quality machinery for wood, metal, glass, and aluminum processing",
+      "cta": "Explore Products",
+      "yearsLabel": "Years of",
+      "experienceLabel": "Experience",
+      "scroll": "Scroll"
+    },
+    "experience": {
+      "title": "20 Years of Excellence",
+      "description": "With two decades of experience in the industrial machinery field, we've established ourselves as leaders in providing cutting-edge solutions for manufacturing businesses of all sizes."
+    }
+  },
+  "machinery": {
+    "badge": "Our Products",
+    "title": "Product Categories",
+    "subtitle": "Explore our wide range of industrial machinery designed for precision, efficiency, and durability",
+    "viewAll": "View All Products",
+    "woodDescription": "CNC and ordinary wood processing machines",
+    "metalDescription": "Laser, waterjet, and bandsaw cutting solutions",
+    "glassAluminiumDescription": "Professional glass and aluminum processing",
+    "airCompressorDescription": "Industrial air compressor systems"
+  },
+  "whyChooseUs": {
+    "badge": "Why Us",
+    "title": "Why Choose Us?",
+    "subtitle": "We are committed to delivering exceptional value and service to our clients",
+    "experience": {
+      "title": "20+ Years Experience",
+      "description": "Two decades of excellence in providing industrial machinery solutions to businesses worldwide."
+    },
+    "quality": {
+      "title": "High Quality Machinery",
+      "description": "We source only the finest machinery from trusted manufacturers, ensuring durability and precision."
+    },
+    "support": {
+      "title": "24/7 Support",
+      "description": "Our dedicated support team is available around the clock to assist with any technical issues."
+    },
+    "delivery": {
+      "title": "Fast Delivery",
+      "description": "Quick and reliable delivery services to get your machinery up and running without delays."
+    },
+    "stats": {
+      "years": "Years Experience",
+      "clients": "Happy Clients",
+      "products": "Products Delivered",
+      "support": "Support Available"
+    }
+  },
+  "partners": {
+    "title": "Trusted By Leading Brands",
+    "subtitle": "We partner with the world's best machinery manufacturers"
+  },
+  "contact": {
+    "badge": "Get In Touch",
+    "title": "Have a Project in Mind?",
+    "subtitle": "Whether you need a quote, technical assistance, or want to discuss your requirements, we're here to help. Reach out to us today!",
+    "phone": "Phone",
+    "email": "Email",
+    "cta": "Request a Quote",
+    "whatsapp": "WhatsApp Us",
+    "whatsappMessage": "Hello! I'm interested in your machinery products.",
+    "formTitle": "Send Us a Message",
+    "form": {
+      "name": "Your Name",
+      "namePlaceholder": "John Doe",
+      "email": "Email Address",
+      "emailPlaceholder": "john@example.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+966 XX XXX XXXX",
+      "message": "Your Message",
+      "messagePlaceholder": "Tell us about your project...",
+      "submit": "Send Message"
+    },
+    "modal": {
+      "title": "Request a Quote",
+      "description": "Fill out the form below and our team will get back to you within 24 hours."
+    }
+  },
+  "products": {
+    "title": "Our Products",
+    "description": "Discover our comprehensive range of industrial machinery. From wood processing to metal cutting, we provide high-quality solutions for every manufacturing need.",
+    "categoriesBadge": "Browse Categories",
+    "categoriesTitle": "Product Categories",
+    "categoriesSubtitle": "Select a category to explore our specialized machinery collections",
+    "viewCategory": "View Category",
+    "viewProducts": "View Products"
+  },
+  "wood": {
+    "pageDescription": "Explore our comprehensive range of wood processing machinery. From CNC machining centers to dust collection systems, we offer complete solutions for the woodworking industry.",
+    "subcategoriesBadge": "Wood Machinery",
+    "subcategoriesTitle": "Browse Wood Machine Categories",
+    "subcategoriesSubtitle": "Select a category to view our specialized wood processing equipment",
+    "cncDescription": "Advanced CNC machines for precise wood processing",
+    "beamSawsDescription": "High-performance panel cutting solutions",
+    "edgeBandersDescription": "Professional edge banding machines",
+    "drillingDescription": "Precision drilling solutions for woodworking",
+    "joineryDescription": "Quality machines for wood joinery",
+    "sandersDescription": "Industrial wide belt sanding machines",
+    "hotPressesDescription": "Hot press machines for lamination",
+    "veneerDescription": "Veneer processing equipment",
+    "dustCollectorsDescription": "Efficient dust collection systems"
+  },
+  "glassAluminium": {
+    "pageDescription": "Discover our premium selection of aluminum and glass processing machinery. From CNC machining centers to crimping machines, we provide complete solutions for the aluminum and glass industry.",
+    "subcategoriesBadge": "Aluminum & Glass Machinery",
+    "subcategoriesTitle": "Browse Machine Categories",
+    "subcategoriesSubtitle": "Select a category to view our specialized aluminum and glass processing equipment",
+    "cncDescription": "Advanced CNC centers for aluminum and glass processing",
+    "cuttingOffDescription": "Precision cutting machines for profiles",
+    "copyRouterDescription": "Copy router machines for profile duplication",
+    "endMillingDescription": "End milling machines for aluminum profiles",
+    "crimpingDescription": "Hydraulic crimping machines for corners"
+  },
+  "metal": {
+    "pageDescription": "Explore our advanced metal processing machinery. From fiber laser cutting to press brakes, we offer cutting-edge solutions for the metal fabrication industry.",
+    "subcategoriesBadge": "Metal Machinery",
+    "subcategoriesTitle": "Browse Metal Working Machine Categories",
+    "subcategoriesSubtitle": "Select a category to view our specialized metal processing equipment",
+    "laserDescription": "High-precision fiber laser cutting for metal sheets",
+    "pressBrakeDescription": "CNC press brake machines for metal bending",
+    "shearDescription": "Industrial shearing machines for metal cutting",
+    "weldingDescription": "Advanced fiber laser welding systems"
+  },
+  "airCompressor": {
+    "pageDescription": "Explore our range of industrial air compressors. From screw type to piston compressors, we provide reliable compressed air solutions for every application.",
+    "subcategoriesBadge": "Air Compressors",
+    "subcategoriesTitle": "Browse Compressor Types",
+    "subcategoriesSubtitle": "Select a category to view our air compressor solutions",
+    "screwDescription": "High-efficiency rotary screw air compressors",
+    "pistonDescription": "Reliable piston-driven air compressors"
+  },
+  "footer": {
+    "description": "Providing high-quality industrial machinery solutions for over 20 years. Your trusted partner in manufacturing excellence.",
+    "quickLinks": "Quick Links",
+    "products": "Products",
+    "contactInfo": "Contact Info",
+    "address": "123 Industrial Area, Riyadh, Saudi Arabia",
+    "companyName": "Company Name",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

@@ -2,9 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Language transition effects */
+body {
+  transition: all 0.3s ease-in-out;
+}
+
+.language-fade {
+  animation: languageFade 0.5s ease-in-out;
+}
+
+@keyframes languageFade {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 :root {
+  --color-primary: #0d47a1; /* Deep Blue */
+  --color-accent: #ffeb3b; /* Vibrant Yellow */
+  --color-cta: #ff9800; /* Orange CTA highlight */
+
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
+  --background-start-rgb: 255, 255, 255;
   --background-end-rgb: 255, 255, 255;
 }
 
@@ -18,10 +40,5 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: rgb(var(--background-start-rgb));
 }
