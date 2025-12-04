@@ -129,7 +129,7 @@ const ContactSection: React.FC = () => {
                     <input
                       type="text"
                       id="name"
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[--color-primary] focus:border-transparent transition-all"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[--color-primary] focus:border-transparent transition-all text-gray-900 bg-white"
                       placeholder={
                         dict.contact?.form?.namePlaceholder || "John Doe"
                       }
@@ -145,7 +145,7 @@ const ContactSection: React.FC = () => {
                     <input
                       type="email"
                       id="email"
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[--color-primary] focus:border-transparent transition-all"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[--color-primary] focus:border-transparent transition-all text-gray-900 bg-white"
                       placeholder={
                         dict.contact?.form?.emailPlaceholder ||
                         "john@example.com"
@@ -162,7 +162,7 @@ const ContactSection: React.FC = () => {
                     <input
                       type="tel"
                       id="phone"
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[--color-primary] focus:border-transparent transition-all"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[--color-primary] focus:border-transparent transition-all text-gray-900 bg-white"
                       placeholder={
                         dict.contact?.form?.phonePlaceholder || "+966594503614"
                       }
@@ -178,7 +178,7 @@ const ContactSection: React.FC = () => {
                     <textarea
                       id="message"
                       rows={4}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[--color-primary] focus:border-transparent transition-all resize-none"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[--color-primary] focus:border-transparent transition-all resize-none text-gray-900 bg-white"
                       placeholder={
                         dict.contact?.form?.messagePlaceholder ||
                         "Tell us about your project..."
@@ -237,17 +237,17 @@ const ContactSection: React.FC = () => {
               <input
                 type="text"
                 placeholder={dict.contact?.form?.name || "Your Name"}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[--color-primary]"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[--color-primary] text-gray-900 bg-white"
               />
               <input
                 type="email"
                 placeholder={dict.contact?.form?.email || "Email Address"}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[--color-primary]"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[--color-primary] text-gray-900 bg-white"
               />
               <textarea
                 rows={3}
                 placeholder={dict.contact?.form?.message || "Your Message"}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[--color-primary] resize-none"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[--color-primary] resize-none text-gray-900 bg-white"
               />
               <button
                 type="submit"
